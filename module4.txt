@@ -1,0 +1,67 @@
+***Module Introduction, project overview and git setup
+
+download developer portfolio > git hub repository>code>download zip or git clone
+
+****Simple image background remove, set fancy background
+
+remove background from image online
+1...removebg.com
+photo edit website
+photopea
+
+ Set google fonts and install live server for auto refresh
+Use on the web
+To embed a font, copy the code into the <head> of your html
+
+<link>
+@import
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+CSS rules to specify families
+body{font-family: 'Poppins', sans-serif;}
+******* Header partial style by using span***
+Put container, side by side, image size, Link button style
+
+<div> tag: used as a container for HTML elements.
+<section> tag: defines a section in a document
+Display:flex; sets the flexible length on flexible items
+
+To open a link in a new tab, just set the target attribute to _blank:
+the target attribute specifies where to open the linked document.
+Use meaningful names for class and id.
+
+ background-image: linear-gradient(orange, tomato);
+
+ background-image: url(images/top-banner.png);
+ background-repeat: no-repeat; sets if / how a image will be      repeated
+ background-position: right;
+background-position : sets the starting position of background image:
+
+Experience area, refactor flexible container, meaningful class name
+
+Box shadow, background image, experience title change
+/* Keyword values */
+box-shadow: none;
+
+/* offset-x | offset-y | color */
+box-shadow: 60px -16px teal;
+
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 5px 5px black;
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+/* inset | offset-x | offset-y | color */
+box-shadow: inset 5em 1em gold;
+
+/* Any number of shadows, separated by commas */
+box-shadow: 3px 3px red, -1em 0 0.4em olive;
+ Border image, footer, GitHub pages hosting, live link
+
+The border-image-slice CSS property divides the image specified by border-image-source in nine regions: four corners, four edges, and a middle. It does this by specifying 4 inwards offsets that typically creates a three by three grid.
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
